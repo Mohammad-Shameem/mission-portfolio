@@ -35,62 +35,61 @@ const Contact = () => {
       <div id="contact">
         <h1 className="contact mt-14 ">Contact Me</h1>
       </div>
-      <div className="grid lg:grid-cols-2 sm:grid-cols-1 md:grid-cols-1 mt-16">
-        <div className="sm:mx-auto sm:mb-5 md:mx-auto md:mb-5 lg:mx-auto w-1/2">
+      <div className="grid lg:grid-cols-2 sm:grid-cols-1 md:grid-cols-1 mt-16  ">
+        <div>
           <div>
-            <h1 className="text-lg font-bold xs:ml-10">Get in Touch</h1>
-            <p className="font-semibold mb-6 sm:text-center">
-              If you have any query want to ask me or want to give me any
-              important message, you can send me a message at any time and yes,
-              I will try to reply to your message in your email.
+            <h1 className="text-lg font-bold xs:ml-10 text-center">
+              Get in Touch
+            </h1>
+            <p className="font-semibold mb-6 text-center">
+              If you have any query want to ask me or want to give me any <br />
+              important message, you can send me a message at any time and yes,{" "}
+              <br />I will try to reply to your message in your email.
             </p>
           </div>
-          <div className="grid grid-cols-2 items-center mb-5 ">
-            <span className="text-3xl">
-              {" "}
-              <FaPhone />
-            </span>
-            <div>
-              <p className="mb-1 font-semibold">Cell</p>
-              <p className="font-semibold">(+088) 01637575916</p>
+          <div className="flex justify-around items-center ">
+            <div id="font-div" className="grid grid-cols-1 gap-y-14">
+              <div className="text-3xl">
+                {" "}
+                <FaPhone />
+              </div>
+              <div className="text-3xl">
+                {" "}
+                <MdEmail />
+              </div>
+              <div className="text-3xl">
+                {" "}
+                <BsWhatsapp />
+              </div>
+              <div className="text-3xl ">
+                {" "}
+                <GoLocation />
+              </div>
+            </div>
+            <div id="fontText-area" className="grid grid-cols-1 gap-y-8">
+              <div>
+                <p className="mb-1 font-semibold">Cell</p>
+                <p className="font-semibold">(+088) 01637575916</p>
+              </div>
+              <div>
+                <p className="mb-1 font-semibold">Email</p>
+                <p className="font-semibold">shameemahmad.sa7@gmail.com</p>
+              </div>
+              <div>
+                {" "}
+                <p className="mb-1 font-semibold">WhatsApp</p>
+                <p className="font-semibold">(+088) 01637575916</p>
+              </div>
+              <div>
+                <p className="mb-1 font-semibold">Address</p>
+                <p className="font-semibold">
+                  Hospital road/South Mandari/Lakshmipur/Chittgong <br />
+                  BANGLADESH
+                </p>
+              </div>
             </div>
           </div>
-          <div className="grid grid-cols-2 items-center mb-5">
-            <span className="text-3xl">
-              {" "}
-              <MdEmail />
-            </span>
-            <div>
-              <p className="mb-1 font-semibold">Email</p>
-              <p className="font-semibold">shameemahmad.sa7@gmail.com</p>
-            </div>
-          </div>
-
-          <div className="grid grid-cols-2 items-center mb-5">
-            <span className="text-3xl">
-              {" "}
-              <BsWhatsapp />
-            </span>
-            <div>
-              {" "}
-              <p className="mb-1 font-semibold">WhatsApp</p>
-              <p className="font-semibold">(+088) 01637575916</p>
-            </div>
-          </div>
-          <div className="grid grid-cols-2 items-center">
-            <span className="text-3xl ">
-              {" "}
-              <GoLocation />
-            </span>
-            <div>
-              <p className="mb-1 font-semibold">Address</p>
-              <p className="font-semibold">
-                Hospital road/South Mandari/Lakshmipur/Chittgong <br />
-                BANGLADESH
-              </p>
-            </div>
-          </div>
-        </div>
+        </div>{" "}
         <div
           style={{ border: "1px solid gold", height: "470px" }}
           className="card shadow-2xl mx-w-sm w-1/2 sm:mx-auto md:mx-auto"

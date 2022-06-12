@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Doctors Portal",
+    "live": "doctors-portal-fea8c.web.app",
+    "img": "https://i.ibb.co/svrKdhX/Screenshot-8.png",
+    "tecnology": [
+      "React",
+      "React Date Picker",
+      "Tailwind",
+      "DaisyUi",
+      "Node.js",
+      "Express.js",
+      "MongoDb"
+    ],
+
+    "githubClient": "",
+    "githubServer": "",
+    "project": "Clinic management site"
+  },
+  {
+    "id": 2,
+    "name": "Zoho Inventory",
+    "live": "zoho-inventory-40590.web.app",
+    "img": "https://i.ibb.co/F7XBmgF/Screenshot-6.png",
+    "tecnology": [
+      "React",
+      "Tailwind",
+      "DaisyUi",
+      "Node.js",
+      "Express.js",
+      "MongoDb"
+    ],
+    "githubClient": "",
+    "githubServer": "",
+    "project": "Inventory management site"
+  },
+  {
+    "id": 3,
+    "name": "Computer Manufacturer",
+    "live": "computer-manufacturer-parts.web.app",
+    "img": "https://i.ibb.co/ZSVwxQ0/Screenshot-7.png",
+    "tecnology": [
+      "React",
+      "Tailwind",
+      "DaisyUi",
+      "Node.js",
+      "Express.js",
+      "MongoDb",
+      "Node Mailer",
+      "Stripe",
+      "Mailgun"
+    ],
+    "githubClient": "",
+    "githubServer": "",
+    "project": "computer manufacturer parts management site"
+  }
+]

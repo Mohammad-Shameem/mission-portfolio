@@ -1,0 +1,32 @@
+.all-button {
+  width: 200px;
+  padding: 8px 0;
+  text-align: center;
+  /* margin: 20px 10px; */
+
+  border-radius: 25px;
+  border: 2px solid #009688;
+  background: transparent;
+  color: #ffff;
+  font: bold;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+article {
+  background: #009688;
+  width: 0;
+  height: 100%;
+  border-radius: 25px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: 1s;
+}
+.all-button:hover article {
+  width: 100%;
+}
+.all-button:hover {
+  border: none;
+}

@@ -1,0 +1,9 @@
+.footer {
+  box-shadow: 5px -6px 8px cyan;
+  position: relative;
+}
+.footer-text {
+  position: absolute;
+  bottom: 0;
+  left: 40%;
+}

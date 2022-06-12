@@ -1,0 +1,22 @@
+.card-style {
+  background-color: white;
+  transition: background-color 2s;
+}
+.card-style:hover {
+  background-color: rgb(143, 143, 240);
+}
+
+.card-style h2 {
+  color: black;
+  transition: color 1.5s;
+}
+.card-style:hover h2 {
+  color: white;
+}
+.card-style p {
+  color: black;
+  transition: 1.5s;
+}
+.card-style:hover p {
+  color: white;
+}
